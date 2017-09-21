@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div id="updateTime"> </div>
+
+@Ajax.ActionLink("JavascriptResult Sample", "JavaScriptResultSample", "ActionResults", new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "updateTime" })
+<br />
+@Html.ActionLink("FilePathResult Sample", "FilePathResultSample", "ActionResults")
+<br />
+
+@Html.ActionLink("FileStreamResult Sample", "FileStreamResultSample", "ActionResults")
+<br />
+@Html.ActionLink("FileContentResult Sample", "FileContentResultSample", "ActionResults")
+<br />
+@Html.ActionLink("FileResult Sample", "FileResultSample", "ActionResults")
+<br />
+
+@Html.ActionLink("RedirectToRouteResult Sample", "RedirectToRouteResultSample", "ActionResults")
+<br />
+
+@Html.ActionLink("RedirectResult Sample", "RedirectResultSample", "ActionResults")
+<br />
+@Html.ActionLink("ViewResult Sample", "ViewResultSample", "ActionResults")
+<br />
+@Html.ActionLink("ContentResult Sample", "ContentResultSample", "ActionResults")
+<br />
+@Html.Action("PartialViewResultSample")
+<br />
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
