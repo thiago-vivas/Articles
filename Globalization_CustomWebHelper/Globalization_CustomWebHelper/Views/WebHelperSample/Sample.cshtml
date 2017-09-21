@@ -1,0 +1,8 @@
+﻿@using WebHelpers.WebHelperSampleClass;
+@using Globalization_CustomWebHelper.Resource;
+@using Globalization_CustomWebHelper.Models;
+@model SampleModel
+
+@Resources.ComboSelect
+<br />
+@Html.DisplayEnum(m => m.SampleComboWithEnums, Resources.HeardAboutUsLabel)

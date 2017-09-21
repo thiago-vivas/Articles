@@ -1,0 +1,154 @@
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\csc.exe
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\vbc.exe
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\WebHelper.dll.config
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\WebHelper.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\WebHelper.pdb
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\es\WebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\pt\WebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Antlr3.Runtime.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\EntityFramework.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\EntityFramework.SqlServer.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Newtonsoft.Json.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Owin.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Helpers.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Mvc.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Optimization.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Razor.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.WebPages.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\WebGrease.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Helpers.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Mvc.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Optimization.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.Razor.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.WebPages.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Antlr3.Runtime.pdb
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Newtonsoft.Json.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\EntityFramework.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\EntityFramework.SqlServer.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\Globalization_CustomWebHelper.csprojResolveAssemblyReference.cache
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\WebHelper.WebHelperSampleResources.Resources.resources
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\WebHelper.WebHelperSampleResources.Resources.es.resources
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\WebHelper.WebHelperSampleResources.Resources.pt.resources
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\Globalization_CustomWebHelper.csproj.GenerateResource.Cache
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\es\WebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\pt\WebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\WebHelper.dll
+C:\Users\Thiago Note\Source\Repos\Articles\WebHelper\WebHelper\obj\Debug\WebHelper.pdb
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\csc.exe
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\vbc.exe
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Globalization_CustomWebHelper.dll.config
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Globalization_CustomWebHelper.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Globalization_CustomWebHelper.pdb
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\es\Globalization_CustomWebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\pt\Globalization_CustomWebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Antlr3.Runtime.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\EntityFramework.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\EntityFramework.SqlServer.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Newtonsoft.Json.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Owin.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Helpers.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Mvc.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Optimization.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Razor.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.WebPages.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\WebGrease.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Helpers.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Mvc.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Optimization.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.Razor.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.WebPages.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Antlr3.Runtime.pdb
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Newtonsoft.Json.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\EntityFramework.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\EntityFramework.SqlServer.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.csproj.GenerateResource.Cache
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\es\Globalization_CustomWebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\pt\Globalization_CustomWebHelper.resources.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.dll
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.pdb
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.csprojResolveAssemblyReference.cache
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.Resource.Resources.resources
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.Resource.Resources.es.resources
+C:\Users\Thiago Note\Source\Repos\Articles\Exam 70-486\Globalization_CustomWebHelper\Globalization_CustomWebHelper\obj\Debug\Globalization_CustomWebHelper.Resource.Resources.pt.resources
