@@ -14,15 +14,17 @@ namespace ExceptionFilter.Controllers
         [CustomExceptionFilter]
         public IEnumerable<string> Get()
         {
-            //throw new Exception();
+            throw new Exception();
             return new string[] { "value1", "value2" };
         }
-
-        // GET api/values/5
-        [HttpGet]
-        public string GetNoError()
+        // GET api/values
+        [HttpGet("New")]
+        [CustomExceptionFilter]
+        public IEnumerable<string> GetNovo()
         {
-            return "No error";
+            //throw new Exception();
+            return new string[] { "redirected" };
         }
+        
     }
 }

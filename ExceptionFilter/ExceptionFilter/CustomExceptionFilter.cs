@@ -16,7 +16,7 @@ namespace ExceptionFilter
                 new RouteValueDictionary
                 {
                     { "controller", "Values" },
-                    { "action", "GetNoError" }
+                    { "action", "GetNovo" }
                 });
 
         }
