@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:1072/",
+      "applicationUrl": "http://localhost:25416/",
       "sslPort": 0
     }
   },
@@ -11,19 +11,19 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/sample",
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebVerbs": {
+    "ExceptionFilter": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/sample",
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:1073"
+      "applicationUrl": "http://localhost:25417"
     }
   }
 }
