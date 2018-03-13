@@ -8,7 +8,7 @@ namespace SimulateCodeFirst
         public SampleContext Create(DbContextFactoryOptions options)
         {
             var optionsBuilder = new DbContextOptionsBuilder<SampleContext>();
-            optionsBuilder.UseSqlServer("Data Source=DESENV41;Initial Catalog=DB_Sample;Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Data Source=YOUR DATA SOURCE;");
 
             return new SampleContext(optionsBuilder.Options);
         }
