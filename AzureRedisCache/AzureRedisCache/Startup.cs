@@ -32,7 +32,7 @@ namespace AzureRedisCache
             services.AddDistributedRedisCache(options =>
             {
                 options.Configuration = Configuration.GetConnectionString("RedisConnection");
-                options.InstanceName = "RedisMaster";
+                options.InstanceName = "TVTesting"; //your dns name
             });
         }
 
