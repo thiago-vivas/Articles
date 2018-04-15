@@ -1,0 +1,18 @@
+﻿@model Boolean
+
+@{
+    ViewData["Title"] = "Redis Part II example";
+    string statusBackgroundColor = Model ? "green" : "red";
+}
+<span style="font-weight: bold;background-color:@statusBackgroundColor"> Azure database connected @Html.Raw( Model )</span>
+<br />
+<br />
+<br />
+@Html.ActionLink( "Set Simple Complex Object", "SetSimpleComplexObject" )
+<br />
+@Html.ActionLink( "Set List of Complex Object", "SetListComplexObject" )
+<br />
+@Html.ActionLink( "Get Simple Complex Object", "GetSimpleComplexObject" )
+<br />
+@Html.ActionLink( "Get List of Complex Object", "GetListComplexObject" )
+<br />
