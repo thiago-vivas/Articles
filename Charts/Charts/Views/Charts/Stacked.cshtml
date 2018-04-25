@@ -1,0 +1,88 @@
+﻿@model List<StackedViewModel>
+@{
+    var XLabels = Newtonsoft.Json.JsonConvert.SerializeObject( Model.FirstOrDefault().LstData.Select( x => x.DimensionOne ).ToList() );
+    var YValues = Newtonsoft.Json.JsonConvert.SerializeObject( Model.Select( x => x.LstData.Select( w => w.Quantity ) ).ToList() );
+    var label2 = Newtonsoft.Json.JsonConvert.SerializeObject( Model.Select( x => x.StackedDimensionOne ).ToList() );
+    ViewData["Title"] = "Stacked Chart";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Stacked</title>
+</head>
+<body>
+    <div class="box-body">
+
+        <div class="chart-container">
+            <canvas id="chartStacked" style="width:100%; height:500px"></canvas>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+        $(function () {
+            var chartName = "chartStacked";
+            var ctx = document.getElementById(chartName).getContext('2d');
+            var XLabels = @Html.Raw(XLabels);
+            var YValues = @Html.Raw( YValues );
+            var label = @Html.Raw( label2 );
+            var aux = 0;
+
+            var barChartData = {
+                labels:  @Html.Raw(label2),
+                datasets: []
+            }
+
+            XLabels.forEach(function (a, i) {
+                var data = [];
+                YValues.forEach(function (a, i) {
+                    data.push(a[aux]);
+                });
+
+            barChartData.datasets.push({
+                label: XLabels[aux],
+                backgroundColor: random_rgba(),
+                data: data
+                });
+                aux++;
+            });
+            var options = {
+                maintainAspectRatio: false,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            min: 0,
+                            beginAtZero: true
+                        },
+                        stacked: true,
+                        gridLines: {
+                            display: true,
+                            color: "rgba(255,99,164,0.2)"
+                        }
+                    }],
+                    xAxes: [{
+                        stacked: true,
+                        gridLines: {
+                            display: false
+                        }
+                    }]
+                }
+            };
+            function random_rgba() {
+                var o = Math.round, r = Math.random, s = 255;
+                return 'rgba(' + o(r() * s) + ',' + o(r() * s) + ',' + o(r() * s) + ',' + r().toFixed(1) + ')';
+            }
+            var myChart = new Chart(ctx, {
+                options: options,
+                data: barChartData,
+                type: 'bar'
+
+            });
+        });
+</script>
