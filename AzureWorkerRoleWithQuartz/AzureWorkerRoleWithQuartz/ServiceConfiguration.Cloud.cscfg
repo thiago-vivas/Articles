@@ -3,7 +3,8 @@
   <Role name="WorkerRoleSample">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=testtvaazure;AccountKey=$(_testtvaazure.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="6ec5fab4-6b60-4bde-923d-07c2c929f034" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
