@@ -10,5 +10,5 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build Articles/tree/master/Charts/Charts/Charts.csproj --configuration $(buildConfiguration)
+- script: dotnet build Articles/master/Charts/Charts/Charts.csproj --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
