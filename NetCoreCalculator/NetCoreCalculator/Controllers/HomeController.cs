@@ -23,5 +23,17 @@ namespace NetCoreCalculator.Controllers
                 model.Result = model.NumberA + model.NumberB;
             return View( model );
         }
+
+        [HttpPost]
+        public IActionResult CompoundInterest( CompoundInterestModel model )
+        {
+            return View( model );
+        }
+
+        [HttpGet]
+        public IActionResult CompoundInterest()
+        {
+            return View();
+        }
     }
 }
