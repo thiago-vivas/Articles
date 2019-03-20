@@ -19,8 +19,5 @@ namespace NetCoreCalculator.Models
 
         [Display( Name = "Period of Time - n" )]
         public int TimePeriod { get; set; }
-
-        [Display( Name = "Investment per Period - t" )]
-        public double InvestmentPerPeriod { get; set; }
     }
 }

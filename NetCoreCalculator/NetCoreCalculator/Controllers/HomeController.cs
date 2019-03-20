@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using NetCoreCalculator.Business;
 using NetCoreCalculator.Models;
 
 namespace NetCoreCalculator.Controllers
@@ -27,6 +28,7 @@ namespace NetCoreCalculator.Controllers
         [HttpPost]
         public IActionResult CompoundInterest( CompoundInterestModel model )
         {
+            model.Result = Calculation.CalculateCompoundInterest( model );
             return View( model );
         }
 
