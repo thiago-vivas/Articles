@@ -1,56 +1,63 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
+using CRUDWebApiWithSwagger.Models;
 using Microsoft.AspNetCore.Mvc;
 using WebApiWithSwagger.Models;
 
 namespace WebApiWithSwagger.Controllers
 {
-    [Route( "api/[controller]" )]
+    [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        public ValuesController()
+        private readonly CrudSampleContext _crudSampleContext;
+        public ValuesController(CrudSampleContext crudSampleContext)
         {
-            ValueSamples.Initialize();
+            this._crudSampleContext = crudSampleContext;
         }
 
         // GET api/values
         [HttpGet]
-        public ActionResult<Dictionary<int, string>> Get()
+        public ActionResult<List<ValueSamples>> Get()
         {
-            return ValueSamples.MyValue;
+            var itemLst = _crudSampleContext.ValueSamples.ToList();
+            return new List<ValueSamples>(itemLst);
         }
 
         // GET api/values/5
-        [HttpGet( "{id}" )]
-        public ActionResult<string> Get( int id )
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
         {
-            return ValueSamples.MyValue.GetValueOrDefault( id );
+            var itemToReturn = _crudSampleContext.ValueSamples.Where(x => x.Id == id).FirstOrDefault();
+            return itemToReturn.Name;
         }
 
         // POST api/values
         [HttpPost]
-        public void Post( [FromBody] string value )
+        public void Post([FromBody] ValueSamples createSample)
         {
-            var maxKey = ValueSamples.MyValue.Max( x => x.Key );
-
-            ValueSamples.MyValue.Add( maxKey + 1, value );
+            _crudSampleContext.ValueSamples.Add(createSample);
+            _crudSampleContext.SaveChanges();
         }
 
         // PUT api/values/5
-        [HttpPut( "{id}" )]
-        public void Put( int id, [FromBody] string value )
+        [HttpPut]
+        public void Put([FromBody] ValueSamples updateSample)
         {
-            ValueSamples.MyValue.Add( id, value );
+            _crudSampleContext.ValueSamples.Update(updateSample);
+            _crudSampleContext.SaveChanges();
         }
 
         // DELETE api/values/5
-        [HttpDelete( "{id}" )]
-        public void Delete( int id )
+        [HttpDelete("{id}")]
+        public void Delete(int id)
         {
-            ValueSamples.MyValue.Remove( id );
+            var itemToDelete = _crudSampleContext.ValueSamples.Where(x => x.Id == id).FirstOrDefault();
+            _crudSampleContext.ValueSamples.Remove(itemToDelete);
+            _crudSampleContext.SaveChanges();
         }
     }
 }
