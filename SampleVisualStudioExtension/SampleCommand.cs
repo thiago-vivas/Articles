@@ -89,8 +89,8 @@ namespace SampleVisualStudioExtension
         private void Execute(object sender, EventArgs e)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
-            string message = string.Format(CultureInfo.CurrentCulture, "Inside {0}.MenuItemCallback()", this.GetType().FullName);
-            string title = "SampleCommand";
+            string message = string.Format(CultureInfo.CurrentCulture, "Hello World! UTC Time now: {0}", DateTime.UtcNow);
+            string title = "Sample title Command";
 
             // Show a message box to prove we were here
             VsShellUtilities.ShowMessageBox(
