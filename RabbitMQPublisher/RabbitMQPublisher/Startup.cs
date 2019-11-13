@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace WebApiWithSwagger
+namespace RabbitMQPublisher
 {
     public class Startup
     {
