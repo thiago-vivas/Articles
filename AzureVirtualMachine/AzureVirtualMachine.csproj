@@ -33,8 +33,123 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Azure.KeyVault, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.KeyVault.3.0.1\lib\net452\Microsoft.Azure.KeyVault.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.WebKey, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.KeyVault.WebKey.3.0.1\lib\net452\Microsoft.Azure.KeyVault.WebKey.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.AppService.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.AppService.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.AppService.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.BatchAI.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.BatchAI.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.BatchAI.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Cdn.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Cdn.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Cdn.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Compute.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Compute.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Compute.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ContainerInstance.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.ContainerInstance.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.ContainerInstance.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ContainerRegistry.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.ContainerRegistry.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.ContainerRegistry.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ContainerService.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.ContainerService.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.ContainerService.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.CosmosDB.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.CosmosDB.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.CosmosDB.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Dns.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Dns.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Dns.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.EventHub.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.EventHub.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.EventHub.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Graph.RBAC.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Graph.RBAC.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Graph.RBAC.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.KeyVault.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.KeyVault.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.KeyVault.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Locks.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Locks.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Locks.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Monitor.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Monitor.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Monitor.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Msi.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Msi.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Msi.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Network.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Network.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Network.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.PrivateDns.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.PrivateDns.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.PrivateDns.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Redis.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Redis.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Redis.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ResourceManager.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.ResourceManager.Fluent.1.30.0\lib\net461\Microsoft.Azure.Management.ResourceManager.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Search.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Search.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Search.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ServiceBus.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.ServiceBus.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.ServiceBus.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Sql.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Sql.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Sql.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Storage.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.Storage.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.Storage.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.TrafficManager.Fluent, Version=1.0.0.63, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Azure.Management.TrafficManager.Fluent.1.30.0\lib\net452\Microsoft.Azure.Management.TrafficManager.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=4.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Clients.ActiveDirectory.4.3.0\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Rest.ClientRuntime.2.3.19\lib\net461\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime.Azure, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Rest.ClientRuntime.Azure.3.3.18\lib\net452\Microsoft.Rest.ClientRuntime.Azure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime.Azure.Authentication, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Rest.ClientRuntime.Azure.Authentication.2.4.0\lib\net461\Microsoft.Rest.ClientRuntime.Azure.Authentication.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=9.3.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\WindowsAzure.Storage.9.3.3\lib\net45\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +163,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="azureAuth.json" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
