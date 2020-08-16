@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DesignPatterFactory
+{
+    public class VehicleCreator
+    {
+        public static IVehicle GetVehicle(int passengers)
+        {
+            if (passengers <= 5)
+                return new Car();
+            else if (passengers > 5 && passengers <= 50)
+                return new Bus();
+            else
+                return new Boat();
+        }
+    }
+}
