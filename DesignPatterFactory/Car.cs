@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterFactory
 {
- public   class Car : IVehicle
+ public   class Car : Vehicle
     {
         public Car()
         {

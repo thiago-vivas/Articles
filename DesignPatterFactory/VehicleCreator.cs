@@ -6,7 +6,7 @@ namespace DesignPatterFactory
 {
     public class VehicleCreator
     {
-        public static IVehicle GetVehicle(int passengers)
+        public static Vehicle GetVehicle(int passengers)
         {
             if (passengers <= 5)
                 return new Car();

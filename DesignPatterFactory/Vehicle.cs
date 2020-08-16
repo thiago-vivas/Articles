@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterFactory
 {
-    public abstract class IVehicle
+    public abstract class Vehicle
     {
         internal int capacity;
         public string GetData()
@@ -19,7 +19,7 @@ namespace DesignPatterFactory
         {
             if (capacity < passengers)
             {
-                throw new Exception("Car reached max capacity");
+                throw new Exception(this.GetData() +" reached max capacity");
             }
             else
                 capacity -= passengers;
