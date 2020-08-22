@@ -9,6 +9,7 @@ namespace DesignPatternFactoryMethod
         protected override Vehicle MakeVehicle()
         {
             Vehicle vehicle = new Bus();
+            vehicle.capacity = 50;
             return vehicle;
         }
     }
