@@ -6,10 +6,6 @@ namespace DesignPatternFactoryMethod
 {
     class Bus : Vehicle
     {
-        public Bus()
-        {
-            base.capacity = 50;
-        }
 
         public override string GetData()
         {

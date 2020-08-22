@@ -6,10 +6,6 @@ namespace DesignPatternFactoryMethod
 {
     class Boat : Vehicle
     {
-        public Boat()
-        {
-            base.capacity = 150;
-        }
 
         public override string GetData()
         {
