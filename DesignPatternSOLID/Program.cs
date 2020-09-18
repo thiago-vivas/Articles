@@ -6,7 +6,8 @@ namespace DesignPatternSOLID
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var problem = new _1.S.Solution();
+            problem.Sum(4, 1);
         }
     }
 }
