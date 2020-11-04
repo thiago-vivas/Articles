@@ -8,8 +8,8 @@ namespace CosmosDBApplication
 {
     class Program
     {
-        private static readonly string endpointUri = "https://sampleazurecosmosdb.documents.azure.com:443/";
-        private static readonly string primaryKey = "BD43cPOWtjdSsSeBTpy2rbJLIW4lMzhGoNkiVKX6y32cTQ2E2f139J0r8xxS3YR8Sy1bQywls9ByISabRjuaUQ==";
+        private static readonly string endpointUri = "https://localhost:8081/";
+        private static readonly string primaryKey = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
         public static async Task Main(string[] args)
         {
             using (CosmosClient client = new CosmosClient(endpointUri, primaryKey))
