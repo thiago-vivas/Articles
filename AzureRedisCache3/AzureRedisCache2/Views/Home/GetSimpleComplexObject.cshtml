@@ -1,0 +1,32 @@
+﻿@model AzureRedisCache2.Models.SampleObject
+
+@{
+    ViewData["Title"] = "Get Simple Complex Object";
+}
+
+<h2>Simple Complex Object</h2>
+
+<div>
+    <h4>SampleObject</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor( model => model.Id )
+        </dt>
+        <dd>
+            @Html.DisplayFor( model => model.Id )
+        </dd>
+        <dt>
+            @Html.DisplayNameFor( model => model.Name )
+        </dt>
+        <dd>
+            @Html.DisplayFor( model => model.Name )
+        </dd>
+        <dt>
+            @Html.DisplayNameFor( model => model.Country )
+        </dt>
+        <dd>
+            @Html.DisplayFor( model => model.Country )
+        </dd>
+    </dl>
+</div>
