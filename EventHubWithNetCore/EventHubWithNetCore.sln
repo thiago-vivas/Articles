@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubWithNetCore", "EventHubWithNetCore\EventHubWithNetCore.csproj", "{4DC998D0-44C9-4968-A058-EF123E7C939D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubConsumerWithNetCore", "EventHubWithNetCore\EventHubConsumerWithNetCore.csproj", "{4DC998D0-44C9-4968-A058-EF123E7C939D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubPublisherWithNetCore", "NetCoreEventHubPublisher\EventHubPublisherWithNetCore.csproj", "{24C65780-30C6-41DF-B07C-56ABD49E9C54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4DC998D0-44C9-4968-A058-EF123E7C939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC998D0-44C9-4968-A058-EF123E7C939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC998D0-44C9-4968-A058-EF123E7C939D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C65780-30C6-41DF-B07C-56ABD49E9C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C65780-30C6-41DF-B07C-56ABD49E9C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C65780-30C6-41DF-B07C-56ABD49E9C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C65780-30C6-41DF-B07C-56ABD49E9C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
