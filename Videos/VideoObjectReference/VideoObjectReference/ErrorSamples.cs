@@ -15,6 +15,15 @@ namespace VideoObjectReference
         public ErrorSamples(SampleObj sampleInjectedObj)
         {
             this.sampleinjectedObj = sampleInjectedObj;
+
+
+            var nullObject = new SampleObj();
+
+            if (nullObject != null)
+            {
+                //does something
+                var item = nullObject.Item1;
+            }
         }
 
         public void Run()
@@ -67,7 +76,7 @@ namespace VideoObjectReference
         }
         private string NewObject()
         {
-            return sampleChild.Item2 ;
+            return sampleChild.Item2;
 
             //fix
             return sampleChild?.Item2;
