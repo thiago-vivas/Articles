@@ -5,7 +5,7 @@ using System.Text;
 namespace DesignPatternSOLID._2.O
 {
     //here we have a class does math calculation with 3 operations, how would we do if need to include others?
-    class MathCalculate
+    public class MathCalculate
     {
         public double Calculate(double numberA, double numberB, CalculationType calculationType)
         {
