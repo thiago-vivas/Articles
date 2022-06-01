@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<ncache-server connection-retries="3" retry-connection-delay="0" retry-interval="1" command-retries="3" command-retry-interval="0.1" client-request-timeout="90" connection-timeout="5" port="9800" local-server-ip="172.22.32.1"/>
+	<cache id="demoLocalCache" client-cache-id="" client-cache-syncmode="optimistic" default-readthru-provider="" default-writethru-provider="" skip-client-cache-if-unavailable="true" reconnect-client-cache-interval="10" load-balance="false" enable-client-logs="False" log-level="error">
+		<server name="172.22.32.1"/>
+	</cache>
+</configuration>
