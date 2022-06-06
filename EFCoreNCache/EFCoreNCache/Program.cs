@@ -17,9 +17,6 @@ namespace EFCoreNCache
 
             using (var context = new SampleDbContext())
             {
-                //var seeder = new DbSeeder(context);
-                //seeder.RunSeed(10000, 10000, 2000, 2000);
-
                 var cachedContext = new NCacheExtensions(context);
 
                 Console.WriteLine("start LoadAllConsumersIntoCache " + DateTime.Now.ToString("HH:mm:ss.f"));

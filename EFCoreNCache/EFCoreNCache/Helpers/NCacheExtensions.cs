@@ -70,10 +70,5 @@ namespace EFCoreNCache.Helpers
         {
             return Database.Consumers.Include(x => x.Transactions).ThenInclude(x => x.Product).FromCacheOnly();
         }
-        public async Task<IEnumerable<Consumer>> GetAllConsumersFromCacheOnlyAsync(CachingOptions cachingOptions)
-        {
-            return await Database.Consumers.Include(x => x.Transactions).ThenInclude(x => x.Product).FromCacheOnlyAsync();
-        }
-
     }
 }
