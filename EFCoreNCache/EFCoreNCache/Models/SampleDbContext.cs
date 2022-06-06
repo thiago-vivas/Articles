@@ -14,17 +14,17 @@ namespace EFCoreNCache.Models
         {
             // configure cache with SQLServer DependencyType and CacheInitParams
             CacheConnectionOptions initParams = new CacheConnectionOptions();
-            //initParams.RetryInterval = new TimeSpan(0, 0, 5);
-            //initParams.ConnectionRetries = 2;
-            //initParams.ConnectionTimeout = new TimeSpan(0, 0, 5);
-            //initParams.AppName = "appName";
-            //initParams.CommandRetries = 2;
-            //initParams.CommandRetryInterval= new TimeSpan(0, 0, 5);
-            //initParams.Mode = IsolationLevel.Default;
+            initParams.RetryInterval = new TimeSpan(0, 0, 5);
+            initParams.ConnectionRetries = 2;
+            initParams.ConnectionTimeout = new TimeSpan(0, 0, 5);
+            initParams.AppName = "appName";
+            initParams.CommandRetries = 2;
+            initParams.CommandRetryInterval = new TimeSpan(0, 0, 5);
+            initParams.Mode = IsolationLevel.Default;
 
-            NCacheConfiguration.Configure("demoLocalCache", DependencyType.SqlServer, initParams);
+            NCacheConfiguration.Configure("democache", DependencyType.SqlServer, initParams);
             
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-H20O12E;Initial Catalog=sampleDatabase;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-HAS2E;Initial Catalog=sampleDatabase;Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
