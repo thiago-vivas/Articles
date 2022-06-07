@@ -68,7 +68,7 @@ namespace EFCoreNCache.Helpers
         }
         public IEnumerable<Consumer> GetAllConsumersFromCacheOnly(CachingOptions cachingOptions)
         {
-            return Database.Consumers.Include(x => x.Transactions).ThenInclude(x => x.Product).FromCacheOnly();
+            return Database.Consumers.FromCacheOnly();
         }
     }
 }
