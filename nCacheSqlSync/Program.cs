@@ -38,7 +38,7 @@ if (nCacheHelper.GetProductFromCache(autoReloadCacheKey) == null)
 else
     Console.WriteLine("productAutoReload found in cache.");
 
-//// Update Product in northwind db to validate sync
+//// Update Product in northwind db to validate cache sync
 nCacheHelper.UpdateProduct(productAutoReload);
 
 if (nCacheHelper.GetProductFromCache(autoReloadCacheKey) == null)

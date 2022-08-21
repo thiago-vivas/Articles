@@ -236,7 +236,7 @@ namespace nCacheSqlSync
             CacheItem item = new CacheItem(product);
             item.Dependency = sqlDependency;
 
-            //Add cache item in the cache with SQL Dependency and Resync option enabled
+            //Add cache item in the cache with SQL Dependency
             this.cache.Insert(GenerateProductCacheKey(product), item);
 
             return product;
@@ -320,22 +320,12 @@ namespace nCacheSqlSync
         }
         public string GenerateOrderKey(Order order)
         {
-            return $"Order:{order.OrderID}";
+            return $"Order#{order.OrderID}";
         }
-
-        /// <summary>
-        /// This method generates the cache key for the specified product.
-        /// </summary>
-        /// <param name="product"> Product whos cache key is to be generated. </param>
-        /// <returns> Returns the cache key. </returns>
         public string GenerateProductCacheKey(Product product)
         {
             string cacheKey = "Product#" + product.ProductID;
             return cacheKey;
-        }
-        public string CacheCount()
-        {
-            return "Cache count: " + this.cache.Count;
         }
     }
 }
