@@ -1,4 +1,5 @@
-﻿using AutoMapperWebAPI.DTOs;
+﻿using AutoMapper;
+using AutoMapperWebAPI.DTOs;
 using AutoMapperWebAPI.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,25 +10,31 @@ namespace AutoMapperWebAPI.Controllers
     [ApiController]
     public class ConversionController : ControllerBase
     {
-        [HttpPost(Name = "FromCategoryDtoToCategoryEntity")]
-        public Category PostFromCategoryDtoToCategoryEntity([FromBody] CategoryDto category)
+        private IMapper Mapper { get; }
+
+        public ConversionController(IMapper mapper)
         {
-            return new Category();
+            this.Mapper = mapper;
         }
-        [HttpPost(Name = "FromCategoryEntityToCategoryDto")]
-        public CategoryDto PostFromCategoryEntityToCategoryDto([FromBody] Category category)
+        [HttpPost("FromCategoryDtoToCategoryEntity")]
+        public Category PostFromCategoryDtoToCategoryEntity([FromBody] CategoryDto categoryDto)
         {
-            return new CategoryDto();
+            return Mapper.Map<Category>(categoryDto);
         }
-        [HttpPost(Name = "FromProductDtoToProductEntity")]
-        public Product PostFromProductDtoToProductEntity([FromBody] ProductDto category)
+        [HttpPost( "FromCategoryEntityToCategoryDto")]
+        public CategoryDto PostFromCategoryEntityToCategoryDto([FromBody] Category categoryEntity)
         {
-            return new Product();
+            return Mapper.Map<CategoryDto>(categoryEntity);
         }
-        [HttpPost(Name = "FromProductEntityToProductDto")]
-        public ProductDto PostFromProductEntityToProductDto([FromBody] Product category)
+        [HttpPost( "FromProductDtoToProductEntity")]
+        public Product PostFromProductDtoToProductEntity([FromBody] ProductDto productDto)
         {
-            return new ProductDto();
+            return Mapper.Map<Product>(productDto);
+        }
+        [HttpPost("FromProductEntityToProductDto")]
+        public ProductDto PostFromProductEntityToProductDto([FromBody] Product productEntity)
+        {
+            return Mapper.Map<ProductDto>(productEntity);
         }
     }
 }

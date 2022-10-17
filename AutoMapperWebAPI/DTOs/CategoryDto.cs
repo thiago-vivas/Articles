@@ -11,7 +11,6 @@ namespace AutoMapperWebAPI.DTOs
 
         public string Name { get; set; } = null!;
         public string? Description { get; set; }
-        public byte[]? Picture { get; set; }
 
         public virtual ICollection<ProductDto> Products { get; set; }
     }
