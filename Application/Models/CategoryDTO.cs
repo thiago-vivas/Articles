@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Application.Models
 {
-    public class CategoryDTO
+    public class CategoryDto
     {
+        public CategoryDto()
+        {
+        }
+
+        public string Name { get; set; } = null!;
+        public string? Description { get; set; }
     }
 }
