@@ -22,7 +22,7 @@ namespace Data.DataAccess
         }
         public Category GetCategoryById(int categoryId)
         {
-            return this.DbContext.Categories.FirstOrDefault(x => x.CategoryId.Equals(categoryId));
+            return DbContext.Categories.FirstOrDefault(x => x.CategoryId.Equals(categoryId));
         }
         public Category CreateCategory(Category category)
         {

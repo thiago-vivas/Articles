@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Application.Models
 {
-    public class EmployeeDTO
+    public class EmployeeDto
     {
+        public string LastName { get; set; } = null!;
+        public string Name { get; set; } = null!;
+        public string? Title { get; set; }
+        public string? TitleOfCourtesy { get; set; }
     }
 }
